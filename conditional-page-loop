@@ -1,0 +1,28 @@
+<?php
+if (is_page('page-id-number')) {
+    // below content only show when page id is 12
+    echo 'This is page id 12';
+
+} elseif ( is_page( '14' ))  {  
+// if page id is 14 then it will show below line only
+echo 'Email me for to discuss your project';
+
+}
+
+// if page id is not 12 & 14 then below line will be print
+else { 
+  echo 'EQ was the last great mmo';
+  } 
+
+
+?>
+
+<h2>If  condition</h2>
+
+<?php
+if ( isfrontpage() ) {
+//This is homepage content
+} else {
+    // This is not homepage
+}
+?>
